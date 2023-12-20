@@ -12,7 +12,7 @@ int addition ( int* n1 , int* n2 ) // Receiving the address of the arguments
 {
 	int result = *n1 + *n2;   // Storing the value to the result variable
 	return result;       // return the result
-
+}
 // function for subtracting two number
 int subtraction(int* n1, int* n2) 
 {
