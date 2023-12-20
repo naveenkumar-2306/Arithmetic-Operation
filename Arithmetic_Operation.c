@@ -1,5 +1,11 @@
 #include <stdio.h> // Include the header file for the input and output
 
+int subtraction(int* n1, int* n2)
+{
+  int diff; // Initalised a variable to store the difference the two number
+  diff = *n1 - *n2; // performed subtraction and stored it the diff variable
+  return diff; // returing the value of diff
+}
 
 int main()
 {
@@ -7,23 +13,23 @@ int n1; // Initialize the variable "n1" for input1
 int n2; // Initialize the variable "n2" for input2
 int task;
 int result;
-printf ("Enter the values of n1 and n2 by leaving one spacebar: ");
+printf ("Enter the values of n1 and n2 by leaving one spacebar: \n");
 scanf ("%d %d",&n1,&n2); // Scan the inputs and store it in variable address of n1, n2
-printf("Enter the operation need to perform");
-printf("1: Addition , 2: Subtraction , 3: multiplication :: ");
+printf("Enter the operation need to perform\n");
+printf("1: Addition , 2: Subtraction , 3: multiplication\n ");
 scanf("%d",&task);
 switch (task)
 	{
 		case 1: 
-	    		result = addition (&n1,&n2); //Send the value of n1 and n2 as function addition
+	    		result = addition(&n1,&n2); //Send the value of n1 and n2 as function addition
 	    		printf("The result of operation : %d ",result);
 	    		break;
 		case 2:
-		   	result = subtraction (&n1,&n2); //Send the value of n1 and n2 as function subtraction
-		   	printf("The result of operation : %d ",result);
+		   	result = subtraction(&n1,&n2); //Send the value of n1 and n2 as function subtraction
+		   	printf("The result of operation : %d \n",result);
 			break;
 		case 3: 
-		    	result = multiplication (&n1,&n2); //Send the value of n1 and n2 as function multiply
+		    	result = multiplication(&n1,&n2); //Send the value of n1 and n2 as function multiply
 		    	printf("The result of operation : %d ",result);
 			break;
 		default: 
