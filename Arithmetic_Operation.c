@@ -1,5 +1,12 @@
 #include <stdio.h> // Include the header file for the input and output
 
+// Addition funtion
+int addition ( int* n1 , int* n2 ) // Receiving the address of the arguments
+{
+	int result = *n1 + *n2;   // Storing the value to the result variable
+	return result;       // return the result
+
+}
 
 int main()
 {
