@@ -7,13 +7,13 @@ int addition ( int* n1 , int* n2 ) // Receiving the address of the arguments
 	int result = *n1 + *n2;   // Storing the value to the result variable
 	return result;       // return the result
 
+
 // function for subtracting two number
 int subtraction(int* n1, int* n2) 
 {
   int diff; // Declared a variable to store the difference the two number
   diff = *n1 - *n2; // performed subtraction and stored it the diff variable
   return diff; // returing the value of diff
-
 }
 
 int main()
