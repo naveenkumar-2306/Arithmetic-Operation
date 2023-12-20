@@ -1,5 +1,11 @@
 #include <stdio.h> // Include the header file for the input and output
 
+//Multiplication operation
+int multiplication(int *p1,int *p2){
+int result;
+result=((*p1)*(*p2));
+return result;
+}
 
 int main()
 {
