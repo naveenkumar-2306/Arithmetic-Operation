@@ -1,8 +1,8 @@
 #include <stdio.h> // Include the header file for the input and output
 
-int subtraction(int* n1, int* n2)
+int subtraction(int* n1, int* n2) // function for subtracting two number
 {
-  int diff; // Initalised a variable to store the difference the two number
+  int diff; // Declared a variable to store the difference the two number
   diff = *n1 - *n2; // performed subtraction and stored it the diff variable
   return diff; // returing the value of diff
 }
