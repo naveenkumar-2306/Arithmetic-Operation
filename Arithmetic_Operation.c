@@ -2,10 +2,12 @@
 
 
 //Multiplication operation
-int multiplication(int *p1,int *p2){
-int result;
-result=((*p1)*(*p2));
-return result;
+{
+	int multiplication(int *p1,int *p2){
+	int result;
+	result=((*p1)*(*p2));
+	return result;
+}
 
 // Addition funtion
 int addition ( int* n1 , int* n2 ) // Receiving the address of the arguments
@@ -13,6 +15,7 @@ int addition ( int* n1 , int* n2 ) // Receiving the address of the arguments
 	int result = *n1 + *n2;   // Storing the value to the result variable
 	return result;       // return the result
 }
+
 // function for subtracting two number
 int subtraction(int* n1, int* n2) 
 {
@@ -21,6 +24,7 @@ int subtraction(int* n1, int* n2)
   return diff; // returing the value of diff
 }
 
+//Main funtion
 int main()
 {
 int n1; // Initialize the variable "n1" for input1 
