@@ -12,3 +12,5 @@ Abishekguru - performed multiplication operation and pushed the files.
 
 Naveen Kumar - Addition function is implemented and changes made in readme file
 
+Keerthanaporkodi - Multiplication function is completed and updated progress in the readme file
+
