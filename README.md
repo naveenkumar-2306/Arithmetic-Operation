@@ -7,4 +7,8 @@ Step 2: Enter the value of the numbers n1 and n2 both positive and negative
 Step 3: Enter the operation to be performed 1: Addition, 2: Subtraction, 3: Multiplication
 Step 4: You find the result of the operation.
 
+
 Abishekguru - performed multiplication operation and pushed the files.
+
+Naveen Kumar - Addition function is implemented and changes made in readme file
+
