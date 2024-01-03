@@ -2,10 +2,12 @@
 
 
 //Multiplication operation
+int multiplication (int *n1, int *n2)
 {
-	int multiplication(int *p1,int *p2){
+	printf("Hello");
+
 	int result;
-	result=((*p1)*(*p2));
+	result=((*n1)*(*n2));
 	return result;
 }
 
