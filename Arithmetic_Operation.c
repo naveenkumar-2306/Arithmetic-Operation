@@ -2,12 +2,16 @@
 
 
 //Multiplication operation
+
+
+int multiplication (int *n1, int *n2)
 {
-	int multiplication(int *p1,int *p2){
+	printf("Hello\n");
 	int result;
-	result=((*p1)*(*p2));
+	result=((*n1)*(*n2));
 	return result;
 }
+
 
 // Addition funtion
 int addition ( int* n1 , int* n2 ) // Receiving the address of the arguments
@@ -43,8 +47,10 @@ switch (task)
 	    		printf("The result of operation : %d ",result);
 	    		break;
 		case 2:
+		   	printf ("subtraction is performed\n");
 		   	result = subtraction(&n1,&n2); //Send the value of n1 and n2 as function subtraction
-		   	printf("The result of operation : %d \n",result);
+		   	printf("Subtraction is performed");
+			printf("The result of operation : %d \n",result);
 			break;
 		case 3: 
 		    	result = multiplication(&n1,&n2); //Send the value of n1 and n2 as function multiply
@@ -53,6 +59,7 @@ switch (task)
 		default: 
 			printf("Invalid task selected");
 	}
-	
+printf("End of the program");
 	
 }
+
