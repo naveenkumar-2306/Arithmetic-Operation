@@ -48,4 +48,7 @@ Files:
 	README.md
 	.gitignore ( shooping_result.txt , Data.csv )
 
+# Python Assignment
+
+	Understanding the concept of Strings, list, dictionary, tuples, Numpy Array, date and time, file_handling, matplotlib, functions in python and the assignment questions are added into the file named Python_Assignments
 
