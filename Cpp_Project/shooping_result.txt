@@ -1,0 +1,2 @@
+Apple   1000
+Total Price of Shopping Rs :1000
