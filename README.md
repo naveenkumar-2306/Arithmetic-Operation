@@ -51,4 +51,8 @@ Files:
 # Python Assignment
 
 	Understanding the concept of Strings, list, dictionary, tuples, Numpy Array, date and time, file_handling, matplotlib, functions in python and the assignment questions are added into the file named Python_Assignments
+	
+# Python Project 
+	
+	Implementing the same project done in Cpp using the python to understand the OPPs concept in python and syntax of it
 
