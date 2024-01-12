@@ -14,3 +14,7 @@ Naveen Kumar - Addition function is implemented and changes made in readme file
 
 Keerthanaporkodi - Multiplication function is completed and updated progress in the readme file
 
+
+# Shell_Scripting 
+	
+	Assignment for Shell_Scripting is uploaded in the file named Shell_Scripting
