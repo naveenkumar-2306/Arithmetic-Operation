@@ -1,0 +1,42 @@
+name: abishek
+Courses:
+Course: maths, grade: 10
+Course: science, grade: 7
+Course: english, grade: 8
+CGPA: 8.333333333333334
+___________________________________________________
+
+name: keerthana
+Courses:
+Course: maths, grade: 9
+Course: science, grade: 10
+Course: english, grade: 9
+CGPA: 9.333333333333334
+___________________________________________________
+
+name: naveen
+Courses:
+Course: maths, grade: 8
+Course: science, grade: 10
+Course: biology, grade: 9
+CGPA: 9.0
+___________________________________________________
+
+name: abishek
+Courses:
+name: keerthana
+Courses:
+name: naveen
+Courses:
+name: messi
+Courses:
+Course: football, grade: 10
+Course: skills, grade: 9
+name: abishek
+Courses:
+name: keerthana
+Courses:
+name: naveen
+Courses:
+name: messi
+Courses:
