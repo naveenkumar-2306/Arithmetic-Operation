@@ -1,5 +1,22 @@
 #include <stdio.h> // Include the header file for the input and output
 
+// Division Operation
+
+int division (int *n1, int *n2)
+{
+        
+	int result;
+	if (*n2 > 0){
+	result=((*n1)/(*n2));
+	return result;
+       }
+      else
+      {
+      printf(" wrong input ");
+      return 0;
+      }
+}
+
 
 //Multiplication operation
 
@@ -38,7 +55,7 @@ int result;
 printf ("Enter the values of n1 and n2 by leaving one spacebar: \n");
 scanf ("%d %d",&n1,&n2); // Scan the inputs and store it in variable address of n1, n2
 printf("Enter the operation need to perform\n");
-printf("1: Addition , 2: Subtraction , 3: multiplication\n ");
+printf("1: Addition , 2: Subtraction , 3: multiplication, 4. division\n ");
 scanf("%d",&task);
 switch (task)
 	{
@@ -56,6 +73,11 @@ switch (task)
 		    	result = multiplication(&n1,&n2); //Send the value of n1 and n2 as function multiply
 		    	printf("The result of operation : %d ",result);
 			break;
+		case 4: 
+		    	result = division(&n1,&n2); //Send the value of n1 and n2 as function division
+		    	printf("The result of operation : %d ",result);
+			break;
+			
 		default: 
 			printf("Invalid task selected");
 	}
